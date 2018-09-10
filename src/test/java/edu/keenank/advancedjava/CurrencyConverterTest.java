@@ -59,7 +59,7 @@ public class CurrencyConverterTest {
     @Test
     public void testNegativeConvertDollars() {
         CurrencyConverter D = new CurrencyConverter(dollars, euros, rate);
-        assertNotEquals("The conversion is incorrect", D.ConvertDollars(), 1.8,0.0);
+        assertNotEquals("The conversion is incorrect", D.ConvertDollars(), 1.8);
     }
     /**
      * Tests the Euro Converter
