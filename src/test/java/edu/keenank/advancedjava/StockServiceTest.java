@@ -2,6 +2,9 @@ package edu.keenank.advancedjava;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import java.util.Calendar;
+
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
@@ -11,6 +14,9 @@ import static org.junit.Assert.assertTrue;
 public class StockServiceTest {
     private String symbol;
     private StockService stockService;
+    private Calendar from;
+    private Calendar until;
+
 
     /**
      * The initial setup
@@ -38,4 +44,6 @@ public class StockServiceTest {
         assertFalse("Stock symbol matches when it shouldn't",
                 stockService.getQuote(symbol).getSymbol().equals(symbol.toLowerCase()));
     }
+
+
 }
