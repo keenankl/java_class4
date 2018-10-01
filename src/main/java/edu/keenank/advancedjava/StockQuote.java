@@ -1,11 +1,14 @@
 package edu.keenank.advancedjava;
 
+import jdk.nashorn.internal.ir.annotations.Immutable;
+
 import java.math.BigDecimal;
 import java.util.Date;
 
 /**
  * Container class for the stock quote
  */
+@Immutable
 public class StockQuote {
     private String symbol;
     private BigDecimal price;

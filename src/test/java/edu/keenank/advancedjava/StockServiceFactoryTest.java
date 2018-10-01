@@ -1,11 +1,15 @@
 package edu.keenank.advancedjava;
 
+import jdk.nashorn.internal.ir.annotations.Immutable;
 import org.junit.Test;
+
 import static org.junit.Assert.assertTrue;
 /**
  * StockServiceFactoryTest class
  */
+@Immutable
 public class StockServiceFactoryTest {
+
     /**
      * Tests that the return value is an instance of StockService
      */

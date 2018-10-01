@@ -1,5 +1,6 @@
 package edu.keenank.advancedjava;
 
+import jdk.nashorn.internal.ir.annotations.Immutable;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -15,6 +16,7 @@ import static org.junit.Assert.assertTrue;
 /**
  * BasicStockServiceTest class
  */
+@Immutable
 public class BasicStockServiceTest {
     private BasicStockService basicStockService;
     private String symbol;
@@ -34,7 +36,7 @@ public class BasicStockServiceTest {
         from = Calendar.getInstance();
         from.set(2018, 01, 01);
         until = Calendar.getInstance();
-        until.set(2018, 1, 06);
+        until.set(2018, 1, 8);
         date = new Date();
     }
 
@@ -91,6 +93,63 @@ public class BasicStockServiceTest {
         List<StockQuote> stockQuote = basicStockService.getQuote(symbol, from, until);
 
         assertNotNull("stockQuote is null",stockQuote);
+    }
+
+    /**
+     * Tests that the HOURLY interval is correct
+     */
+    @Test
+    public void testGetQuoteIntervalPositiveHourly() {
+        List<StockQuote> stockList = basicStockService.getQuote(symbol, from, until, IntervalEnum.HOURLY);
+        assertTrue("The number of quotes is 168 for 7 days", stockList.size() == 168);
+    }
+
+    /**
+     * Tests that the HOURLY interval is incorrect
+     */
+    @Test
+    public void testGetQuoteIntervalNegativeHourly() {
+        List<StockQuote> stockList = basicStockService.getQuote(symbol, from, until, IntervalEnum.HOURLY);
+        assertFalse("The number of quotes is not greater than or less than 168 for 7 days",
+                stockList.size() < 168 || stockList.size() > 168);
+    }
+
+    /**
+     * Tests that the DAILY interval is correct
+     */
+    @Test
+    public void testGetQuoteIntervalPositiveDaily() {
+        List<StockQuote> stockList = basicStockService.getQuote(symbol, from, until, IntervalEnum.DAILY);
+        assertTrue("The number of quotes is 7 for 7 days", stockList.size() == 7);
+    }
+
+    /**
+     * Tests that the DAILY interval is incorrect
+     */
+    @Test
+    public void testGetQuoteIntervalNegativeDaily() {
+        List<StockQuote> stockList = basicStockService.getQuote(symbol, from, until, IntervalEnum.DAILY);
+        assertFalse("The number of quotes is not greater than or less than 7 for 7 days",
+                stockList.size() < 7 || stockList.size() > 7);
+    }
+
+    /**
+     * Tests that the WEEKLY interval is correct
+     */
+    @Test
+    public void testGetQuoteIntervalPositiveWeekly() {
+        List<StockQuote> stockList = basicStockService.getQuote(symbol, from, until, IntervalEnum.WEEKLY);
+        assertTrue("The number of quotes is 1 for 7 days", stockList.size() == 1);
+    }
+
+    /**
+     * Tests that the WEEKLY interval is incorrect
+     */
+    @Test
+    public void testGetQuoteIntervalNegativeWeekly() {
+        List<StockQuote> stockList = basicStockService.getQuote(symbol, from, until, IntervalEnum.WEEKLY);
+        assertFalse("The number of quotes is not greater than or less than 1 for 7 days",
+                stockList.size() < 1 || stockList.size() > 1);
     }
 
 }

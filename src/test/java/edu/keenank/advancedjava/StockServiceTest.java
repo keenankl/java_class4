@@ -1,5 +1,6 @@
 package edu.keenank.advancedjava;
 
+import jdk.nashorn.internal.ir.annotations.Immutable;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,6 +12,7 @@ import static org.junit.Assert.assertTrue;
 /**
  * StockServiceTest class
  */
+@Immutable
 public class StockServiceTest {
     private String symbol;
     private StockService stockService;
