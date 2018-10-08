@@ -65,10 +65,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="edu.keenank.advancedjava.model.StockQuoteTest" name="testGetDatePositive" time="0.026"/>
+  <testcase classname="edu.keenank.advancedjava.model.StockQuoteTest" name="testGetSymbolPositive" time="0.027"/>
+  <testcase classname="edu.keenank.advancedjava.model.StockQuoteTest" name="testGetDatePositive" time="0"/>
   <testcase classname="edu.keenank.advancedjava.model.StockQuoteTest" name="testGetPricePositive" time="0"/>
-  <testcase classname="edu.keenank.advancedjava.model.StockQuoteTest" name="testGetSymbolNegative" time="0"/>
-  <testcase classname="edu.keenank.advancedjava.model.StockQuoteTest" name="testGetSymbolPositive" time="0"/>
-  <testcase classname="edu.keenank.advancedjava.model.StockQuoteTest" name="testGetPriceNegative" time="0.001"/>
   <testcase classname="edu.keenank.advancedjava.model.StockQuoteTest" name="testGetDateNegative" time="0"/>
+  <testcase classname="edu.keenank.advancedjava.model.StockQuoteTest" name="testGetSymbolNegative" time="0"/>
+  <testcase classname="edu.keenank.advancedjava.model.StockQuoteTest" name="testGetPriceNegative" time="0"/>
 </testsuite>
