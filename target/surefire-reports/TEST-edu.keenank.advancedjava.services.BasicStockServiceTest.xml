@@ -65,15 +65,15 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuoteIntervalNegativeDaily" time="0.001"/>
-  <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuoteIntervalPositiveHourly" time="0.005"/>
-  <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuoteIntervalNegativeWeekly" time="0.001"/>
-  <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuoteIntervalPositiveDaily" time="0.001"/>
-  <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuoteIntervalNegativeHourly" time="0.012"/>
+  <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuoteIntervalNegativeHourly" time="0.01"/>
   <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuoteIntervalPositiveWeekly" time="0.001"/>
-  <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="getListQuotePositive" time="0.001"/>
+  <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuoteIntervalNegativeDaily" time="0"/>
+  <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuoteIntervalNegativeWeekly" time="0"/>
+  <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuoteIntervalPositiveHourly" time="0.009"/>
+  <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuoteIntervalPositiveDaily" time="0.001"/>
   <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuotePositive" time="0"/>
-  <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuoteDatePositive" time="0"/>
-  <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuoteDateNegative" time="0"/>
   <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuoteNegative" time="0"/>
+  <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="getListQuotePositive" time="0.001"/>
+  <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuoteDateNegative" time="0"/>
+  <testcase classname="edu.keenank.advancedjava.services.BasicStockServiceTest" name="testGetQuoteDatePositive" time="0"/>
 </testsuite>

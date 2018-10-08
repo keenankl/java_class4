@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="edu.keenank.advancedjava.services.DatabaseStockServiceTest" time="0.796" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="edu.keenank.advancedjava.services.DatabaseStockServiceTest" time="0.862" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
@@ -65,9 +65,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="edu.keenank.advancedjava.services.DatabaseStockServiceTest" name="testGetQuoteTripleArgTimeNegative" time="0.376"/>
-  <testcase classname="edu.keenank.advancedjava.services.DatabaseStockServiceTest" name="testGetQuote" time="0.084"/>
-  <testcase classname="edu.keenank.advancedjava.services.DatabaseStockServiceTest" name="testGetQuoteTripleArgNegative" time="0.151"/>
-  <testcase classname="edu.keenank.advancedjava.services.DatabaseStockServiceTest" name="testGetQuotePositive" time="0.106"/>
-  <testcase classname="edu.keenank.advancedjava.services.DatabaseStockServiceTest" name="testGetQuoteNegative" time="0.079"/>
+  <testcase classname="edu.keenank.advancedjava.services.DatabaseStockServiceTest" name="testGetQuoteTripleArgTimeNegative" time="0.421"/>
+  <testcase classname="edu.keenank.advancedjava.services.DatabaseStockServiceTest" name="testGetQuote" time="0.107"/>
+  <testcase classname="edu.keenank.advancedjava.services.DatabaseStockServiceTest" name="testGetQuotePositive" time="0.122"/>
+  <testcase classname="edu.keenank.advancedjava.services.DatabaseStockServiceTest" name="testGetQuoteNegative" time="0.088"/>
+  <testcase classname="edu.keenank.advancedjava.services.DatabaseStockServiceTest" name="testGetQuoteTripleArgNegative" time="0.124"/>
 </testsuite>
