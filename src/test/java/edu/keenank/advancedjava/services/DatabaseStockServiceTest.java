@@ -2,20 +2,9 @@ package edu.keenank.advancedjava.services;
 
 
 import edu.keenank.advancedjava.IntervalEnum;
-import edu.keenank.advancedjava.ServiceType;
-import edu.keenank.advancedjava.model.StockQuote;
-import edu.keenank.advancedjava.utl.DatabaseConnectionException;
-import edu.keenank.advancedjava.utl.DatabaseInitializationException;
-import edu.keenank.advancedjava.utl.DatabaseUtils;
-import org.junit.Before;
-import org.junit.Test;
 
-import java.math.BigDecimal;
 import java.util.Calendar;
 import java.util.Date;
-
-import static junit.framework.TestCase.assertNotNull;
-import static org.junit.Assert.*;
 
 /**
  * Unit tests for the DatabaseStockService
@@ -28,10 +17,10 @@ public class DatabaseStockServiceTest {
     private Calendar from;
     private Calendar until;
     private IntervalEnum interval;
-
+/*
     /**
      * The initial setup
-     */
+
     @Before
     public void setup() throws DatabaseConnectionException, StockServiceException, DatabaseInitializationException {
         DatabaseUtils.initializeDatabase(DatabaseUtils.initializationFile);
@@ -57,7 +46,7 @@ public class DatabaseStockServiceTest {
 
     /**
      * Tests that it has the correct symbol
-     */
+
     @Test
     public void testGetQuotePositive() throws StockServiceException {
         assertTrue("Stock symbol is incorrect",
@@ -66,7 +55,7 @@ public class DatabaseStockServiceTest {
 
     /**
      * Tests that it has the incorrect symbol
-     */
+
     @Test
     public void testGetQuoteNegative() throws StockServiceException {
         assertFalse("Stock symbol matches when it shouldn't",
@@ -81,5 +70,5 @@ public class DatabaseStockServiceTest {
     public final void testGetQuoteTripleArgTimeNegative() throws StockServiceException {
         databaseStockService.getQuote(symbol, from, until);
     }
-
+*/
 }
