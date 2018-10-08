@@ -9,15 +9,16 @@ import jdk.nashorn.internal.ir.annotations.Immutable;
 @Immutable
 public class StockServiceFactory {
 
+    /**
+     * Private constructor
+     */
     private StockServiceFactory() {
     }
 
     /**
      * Constructs a new StockService
-     *
      * @return an object using the StockService interface
      */
-
     public static final StockService getInstance (ServiceType type) throws StockServiceException {
             if (type.equals(ServiceType.BASIC)) {
                 return new BasicStockService();

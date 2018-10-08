@@ -17,8 +17,7 @@ public class DatabaseUtils {
 
 
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/stocks?autoReconnect=true&&useSSL=false";
-
+    private static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/stocks?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT&autoReconnect=true&&useSSL=false&relaxAutoCommit=true";
 
     private static final String USER = "root";
     private static final String PASS = "test";
@@ -26,7 +25,10 @@ public class DatabaseUtils {
     public static final String initializationFile = "src/main/resources/sql/stocks_db_initialization.sql";
 
 
-
+    /**
+     * A utility method that connects to the database
+     * @throws DatabaseInitializationException
+     */
     public static Connection getConnection() throws DatabaseConnectionException {
         Connection connection = null;
         try {
@@ -49,6 +51,7 @@ public class DatabaseUtils {
         Connection connection = null;
         try {
             connection = getConnection();
+            connection.setAutoCommit(false);
             ScriptRunner runner = new ScriptRunner(connection, false, false);
             InputStream inputStream = new  FileInputStream(initializationScript);
 

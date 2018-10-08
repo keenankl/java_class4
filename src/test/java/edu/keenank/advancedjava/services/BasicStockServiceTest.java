@@ -26,6 +26,7 @@ public class BasicStockServiceTest {
     private Date date;
     private Calendar from;
     private Calendar until;
+    private IntervalEnum interval;
 
 
     /**
@@ -41,6 +42,7 @@ public class BasicStockServiceTest {
         until = Calendar.getInstance();
         until.set(2018, 1, 8);
         date = new Date();
+        interval = IntervalEnum.DAILY;
     }
 
     /**

@@ -11,7 +11,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Implements the interface to define methods for getting stock quotes
+ * Implements the dummy interface to define methods for getting stock quotes
  *
  * */
 @Immutable

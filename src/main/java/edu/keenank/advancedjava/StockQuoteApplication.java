@@ -16,6 +16,10 @@ import java.util.Calendar;
 public class StockQuoteApplication {
     private StockService basicStockService;
 
+    /**
+     * Constructs a new {@code BasicStockQuote} instance
+     * @param basicStockService used to get actual stock data dummy interface
+     */
     public StockQuoteApplication(StockService basicStockService) {
         this.basicStockService = basicStockService;
     }
@@ -27,9 +31,11 @@ public class StockQuoteApplication {
      */
     public static void main(String[] args) throws ParseException, StockServiceException {
         StockService basicStockService = StockServiceFactory.getInstance(ServiceType.BASIC);
-        SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
+        StockService databaseStockService = StockServiceFactory.getInstance(ServiceType.DATABASE);
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
 
         System.out.println(basicStockService.getQuote(args[0]));
+        System.out.println(databaseStockService.getQuote(args[0]));
 
         Calendar from = Calendar.getInstance();
         from.setTime(sdf.parse(args[1]));
@@ -38,9 +44,11 @@ public class StockQuoteApplication {
         until.setTime(sdf.parse(args[2]));
 
         System.out.println(basicStockService.getQuote(args[0], from, until));
+        System.out.println(databaseStockService.getQuote(args[0], from, until));
 
         IntervalEnum interval = IntervalEnum.valueOf(args[3]);
         System.out.println(basicStockService.getQuote(args[0], from, until, interval));
+        System.out.println(databaseStockService.getQuote(args[0], from, until, interval));
     }
 
 }

@@ -21,7 +21,7 @@ public class DatabaseStockService implements StockService {
      * Return the current price for a share of stock  for the given symbol
      *
      * @param symbol the stock symbol of the company you want a quote for.
-     *               e.g. APPL for APPLE
+     *               e.g. AAPL for APPLE
      * @return a  <CODE>BigDecimal</CODE> instance
      * @throws StockServiceException if using the service generates an exception.
      *                               If this happens, trying the service may work, depending on the actual cause of the
@@ -95,6 +95,18 @@ public class DatabaseStockService implements StockService {
         return stockQuotes;
     }
 
+    /**
+     * Get a historical list of stock quotes for the provide symbol
+     *
+     * @param symbol the stock symbol to search for
+     * @param from   the date of the first stock quote
+     * @param until  the date of the last stock quote
+     * @param interval the time interval for the period
+     * @return null
+     * @throws   StockServiceException if using the service generates an exception.
+     * If this happens, trying the service may work, depending on the actual cause of the
+     * error.
+     */
     @Override
     public final List<StockQuote> getQuote(String symbol, Calendar from, Calendar until, IntervalEnum interval) {
         return null;

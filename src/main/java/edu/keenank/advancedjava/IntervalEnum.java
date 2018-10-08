@@ -1,12 +1,10 @@
 package edu.keenank.advancedjava;
 
-import jdk.nashorn.internal.ir.annotations.Immutable;
-
 /**
  * Enum to represent intervals
  * Hourly, Daily, and Weekly
  */
-@Immutable
+
 public enum IntervalEnum {
 
     /**
