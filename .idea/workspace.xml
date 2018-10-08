@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22c10c8c-ce3c-425b-978f-474b80facd2e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/IntervalEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/IntervalEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/ServiceType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/ServiceType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/StockQuoteApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/StockQuoteApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/BasicStockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/BasicStockService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/DatabaseStockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/DatabaseStockService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/StockServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/StockServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/DatabaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/DatabaseUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/BasicStockServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/BasicStockServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/DatabaseStockServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/DatabaseStockServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/StockServiceFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/StockServiceFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/StockQuoteApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/StockQuoteApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/services/StockServiceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/services/StockServiceFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/utl/DatabaseUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/utl/DatabaseUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.model.StockQuoteTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.model.StockQuoteTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.services.BasicStockServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.services.BasicStockServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.services.DatabaseStockServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.services.DatabaseStockServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.services.StockServiceFactoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.services.StockServiceFactoryTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.model.StockQuoteTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.model.StockQuoteTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.services.BasicStockServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.services.BasicStockServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.services.DatabaseStockServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.services.DatabaseStockServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.services.StockServiceFactoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.services.StockServiceFactoryTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/keenank/advancedjava/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/keenank/advancedjava/services/BasicStockServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/keenank/advancedjava/services/DatabaseStockServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/keenank/advancedjava/services/StockServiceFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/keenank/advancedjava/services/StockServiceFactoryTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="22c10c8c-ce3c-425b-978f-474b80facd2e" name="Default Changelist" comment="final commit" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,13 +26,13 @@
         <counts>
           <entry key="java" value="502" />
           <entry key="sql" value="76" />
-          <entry key="txt" value="56" />
+          <entry key="txt" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="502" />
-          <entry key="PLAIN_TEXT" value="56" />
+          <entry key="PLAIN_TEXT" value="68" />
           <entry key="SQL" value="76" />
         </counts>
       </usages-collector>
@@ -76,6 +41,7 @@
           <entry key="gitingore" value="1" />
           <entry key="java" value="47" />
           <entry key="sql" value="2" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -83,6 +49,7 @@
           <entry key="JAVA" value="47" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SQL" value="2" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -142,11 +109,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/DatabaseUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="21" column="44" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -156,15 +132,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="748">
               <caret line="51" column="93" lean-forward="true" selection-start-line="51" selection-start-column="93" selection-end-line="51" selection-end-column="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/DatabaseConnectionException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -222,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="210" />
     <option name="y" value="-16" />
     <option name="width" value="1400" />
@@ -360,7 +327,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538960569997" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538961570955" />
     <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
   </component>
   <component name="RecentsManager">
@@ -420,12 +387,12 @@
       <option name="project" value="LOCAL" />
       <updated>1538870685725</updated>
     </task>
-    <task id="LOCAL-00005" summary="added gitignore">
-      <created>1536923527335</created>
+    <task id="LOCAL-00005" summary="final commit">
+      <created>1538960599069</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1536923527335</updated>
+      <updated>1538960599069</updated>
     </task>
     <task id="LOCAL-00006" summary="initial commit assignment 3">
       <created>1537741136458</created>
@@ -434,13 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537741136458</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.119936034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.119936034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -454,7 +422,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" visible="true" weight="0.29934925" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" visible="true" weight="0.29934925" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.29934925" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.30043384" />
@@ -481,7 +449,8 @@
     <MESSAGE value="fixed pom" />
     <MESSAGE value="fixed application and intervalenum" />
     <MESSAGE value="changed circleci" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed circleci" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/sql/DriverManager.java">
@@ -497,13 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
           <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -669,6 +631,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="21" column="44" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
         </state>
       </provider>
     </entry>
