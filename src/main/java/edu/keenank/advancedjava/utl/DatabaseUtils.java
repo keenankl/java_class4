@@ -19,8 +19,8 @@ public class DatabaseUtils {
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     private static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/stocks?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT&autoReconnect=true&&useSSL=false&relaxAutoCommit=true";
 
-    private static final String USER = "monty";
-    private static final String PASS = "some_pass";
+    private static final String USER = "root";
+    private static final String PASS = "test";
 
     public static final String initializationFile = "src/main/resources/sql/stocks_db_initialization.sql";
 

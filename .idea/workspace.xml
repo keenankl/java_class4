@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="22c10c8c-ce3c-425b-978f-474b80facd2e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/DatabaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/DatabaseUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,13 +28,13 @@
         <counts>
           <entry key="java" value="516" />
           <entry key="sql" value="76" />
-          <entry key="txt" value="109" />
+          <entry key="txt" value="145" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="516" />
-          <entry key="PLAIN_TEXT" value="109" />
+          <entry key="PLAIN_TEXT" value="145" />
           <entry key="SQL" value="76" />
         </counts>
       </usages-collector>
@@ -115,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/DatabaseUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            <state relative-caret-position="493">
+              <caret line="37" column="61" lean-forward="true" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -340,7 +339,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538962415533" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538962867343" />
     <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
   </component>
   <component name="RecentsManager">
@@ -428,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538962113716</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="changed circleci and database login">
+      <created>1538962460163</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1538962460163</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -479,7 +485,8 @@
     <MESSAGE value="fixed pom" />
     <MESSAGE value="fixed circleci" />
     <MESSAGE value="changed database user" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed database user" />
+    <MESSAGE value="changed circleci and database login" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed circleci and database login" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/sql/DriverManager.java">
@@ -665,8 +672,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/DatabaseUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        <state relative-caret-position="493">
+          <caret line="37" column="61" lean-forward="true" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
         </state>
       </provider>
     </entry>
