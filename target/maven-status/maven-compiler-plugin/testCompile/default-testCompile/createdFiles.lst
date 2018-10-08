@@ -1,0 +1,6 @@
+edu\keenank\advancedjava\services\DatabaseStockServiceTest.class
+edu\keenank\advancedjava\services\StockServiceTest.class
+edu\keenank\advancedjava\model\StockQuoteTest.class
+edu\keenank\advancedjava\services\StockServiceFactoryTest.class
+edu\keenank\advancedjava\StockQuoteApplicationTest.class
+edu\keenank\advancedjava\services\BasicStockServiceTest.class
