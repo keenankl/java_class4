@@ -17,7 +17,7 @@ jobs:
         environment:
             - MYSQL_ROOT_PASSWORD: test
             - MYSQL_DATABASE: stocks
-            - MYSQL_USER: root
+            - MYSQL_USER: monty
             - MYSQL_PASSWORD: test
 
     working_directory: ~/repo
