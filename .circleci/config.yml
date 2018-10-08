@@ -15,7 +15,7 @@ jobs:
       # - image: circleci/postgres:9.4
       - image: circleci/mysql:latest-ram
         environment:
-            - MYSQL_ROOT_PASSWORD: test
+            - MYSQL_ROOT_PASSWORD: some_pass
             - MYSQL_DATABASE: stocks
             - MYSQL_USER: monty
             - MYSQL_PASSWORD: some_pass
