@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="edu.keenank.advancedjava.model.DatabasePersonStockTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="edu.keenank.advancedjava.model.DatabasePersonStockTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
@@ -65,12 +65,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="edu.keenank.advancedjava.model.DatabasePersonStockTest" name="testGetSetSymbolNegative" time="0.003"/>
-  <testcase classname="edu.keenank.advancedjava.model.DatabasePersonStockTest" name="testGetSetIdPositive" time="0"/>
-  <testcase classname="edu.keenank.advancedjava.model.DatabasePersonStockTest" name="testEqualsNegative" time="0"/>
-  <testcase classname="edu.keenank.advancedjava.model.DatabasePersonStockTest" name="testGetSetPersonPositive" time="0"/>
-  <testcase classname="edu.keenank.advancedjava.model.DatabasePersonStockTest" name="testGetSetPersonNegative" time="0"/>
-  <testcase classname="edu.keenank.advancedjava.model.DatabasePersonStockTest" name="testGetSetSymbolPositive" time="0"/>
+  <testcase classname="edu.keenank.advancedjava.model.DatabasePersonStockTest" name="testGetSetPersonNegative" time="0.003"/>
   <testcase classname="edu.keenank.advancedjava.model.DatabasePersonStockTest" name="testGetSetIdNegative" time="0"/>
+  <testcase classname="edu.keenank.advancedjava.model.DatabasePersonStockTest" name="testGetSetIdPositive" time="0"/>
   <testcase classname="edu.keenank.advancedjava.model.DatabasePersonStockTest" name="testEqualsPositive" time="0"/>
+  <testcase classname="edu.keenank.advancedjava.model.DatabasePersonStockTest" name="testEqualsNegative" time="0"/>
+  <testcase classname="edu.keenank.advancedjava.model.DatabasePersonStockTest" name="testGetSetSymbolPositive" time="0"/>
+  <testcase classname="edu.keenank.advancedjava.model.DatabasePersonStockTest" name="testGetSetPersonPositive" time="0.001"/>
+  <testcase classname="edu.keenank.advancedjava.model.DatabasePersonStockTest" name="testGetSetSymbolNegative" time="0"/>
 </testsuite>
