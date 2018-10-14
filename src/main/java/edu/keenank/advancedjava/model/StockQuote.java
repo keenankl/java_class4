@@ -48,6 +48,9 @@ public class StockQuote extends StockData {
         return symbol;
     }
 
+    /**
+     * Returns the information as a string
+     */
     @Override
     public String toString() {
         String dateString = simpleDateFormat.format(date);

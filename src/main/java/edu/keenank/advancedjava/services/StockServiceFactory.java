@@ -19,7 +19,7 @@ public class StockServiceFactory {
      * Constructs a new StockService
      * @return an object using the StockService interface
      */
-    public static final StockService getInstance (ServiceType type) throws StockServiceException {
+    public static final StockService getStockServiceInstance (ServiceType type) throws StockServiceException {
             if (type.equals(ServiceType.BASIC)) {
                 return new BasicStockService();
             } else if (type.equals(ServiceType.DATABASE)) {

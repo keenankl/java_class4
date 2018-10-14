@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" value="c8f8fdf8-efa0-4432-89f2-f2d1e9ea664a" />
+          <unit-entry name="resources:hibernate.cfg.xml" value="61c8489a-8659-4bcc-9cd8-60616306c044" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/resources/hibernate.cfg.xml" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/java" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.apache.ibatis:ibatis-sqlmap:2.3.4.726" level="project" />
+    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.12" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:4.2.6.Final" level="project" />
+    <orderEntry type="library" name="Maven: joda-time:joda-time:2.10" level="project" />
+  </component>
+</module>

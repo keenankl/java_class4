@@ -67,7 +67,7 @@ public class DatabaseStockService implements StockService {
      */
     @Override
     public List<StockQuote> getQuote(String symbol, Calendar from, Calendar until) throws StockServiceException {
-        List<StockQuote> stockQuotes = null;
+        List<StockQuote> stockQuotes;
         try {
             Connection connection = DatabaseUtils.getConnection();
             Statement statement = connection.createStatement();
@@ -88,9 +88,6 @@ public class DatabaseStockService implements StockService {
             }
         } catch (DatabaseConnectionException | SQLException exception) {
             throw new StockServiceException(exception.getMessage(), exception);
-        }
-        if (stockQuotes.isEmpty()) {
-            throw new StockServiceException("There is no stock data for:" + symbol);
         }
         return stockQuotes;
     }

@@ -16,7 +16,7 @@ public interface StockService {
      * Return the current price for a share of stock  for the given symbol
      *
      * @param symbol the stock symbol of the company you want a quote for.
-     *               e.g. APPL for APPLE
+     *               e.g. AAPL for APPLE
      * @return a  <CODE>BigDecimal</CODE> instance
      * @throws StockServiceException if using the service generates an exception.
      *                               If this happens, trying the service may work, depending on the actual cause of the

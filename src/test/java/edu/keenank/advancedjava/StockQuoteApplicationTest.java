@@ -31,9 +31,6 @@ public class StockQuoteApplicationTest {
         assertNotNull("Basic construction works");
     }
 
-    /**
-     * Tests for a NullPointerException
-     */
     @Test(expected = NullPointerException.class)
     public void testMainNegative() throws ParseException, StockServiceException {
         StockQuoteApplication.main(null);

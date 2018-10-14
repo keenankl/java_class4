@@ -30,8 +30,8 @@ public class StockQuoteApplication {
      * Prints out the results
      */
     public static void main(String[] args) throws ParseException, StockServiceException {
-        StockService basicStockService = StockServiceFactory.getInstance(ServiceType.BASIC);
-        StockService databaseStockService = StockServiceFactory.getInstance(ServiceType.DATABASE);
+        StockService basicStockService = StockServiceFactory.getStockServiceInstance(ServiceType.BASIC);
+        StockService databaseStockService = StockServiceFactory.getStockServiceInstance(ServiceType.DATABASE);
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
 
         System.out.println(basicStockService.getQuote(args[0]));
