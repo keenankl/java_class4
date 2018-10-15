@@ -1,11 +1,11 @@
 package edu.keenank.advancedjava.model;
 
 import jdk.nashorn.internal.ir.annotations.Immutable;
+import org.joda.time.DateTime;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.math.BigDecimal;
-import java.util.Date;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -18,13 +18,13 @@ public class StockQuoteTest {
     private String symbol;
     private StockQuote stockQuote;
     private BigDecimal price;
-    private Date date;
+    private DateTime date;
 
     @Before
     public void setUp() {
         symbol = "AAPL";
         price = new BigDecimal(100);
-        date = new Date();
+        date = DateTime.now();
         stockQuote = new StockQuote(price, date, symbol);
     }
 
@@ -60,7 +60,7 @@ public class StockQuoteTest {
 
     @Test
     public void testGetDateNegative() {
-        Date badDate = new Date(1);
+        DateTime badDate = new DateTime(1);
         assertFalse("Date matches when it shouldn't",
                 stockQuote.getDate().equals(badDate));
     }

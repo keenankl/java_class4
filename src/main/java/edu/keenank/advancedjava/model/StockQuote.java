@@ -1,8 +1,11 @@
 package edu.keenank.advancedjava.model;
 
 
+import org.joda.time.DateTime;
+import org.joda.time.format.DateTimeFormat;
+import org.joda.time.format.DateTimeFormatter;
+
 import java.math.BigDecimal;
-import java.util.Date;
 
 /**
  * Container class for the stock quote
@@ -10,9 +13,11 @@ import java.util.Date;
 
 public class StockQuote extends StockData {
     private BigDecimal price;
-    private Date date;
+    private DateTime date;
     private String symbol;
 
+    public static final String DATE_PATTERN = "YYYY-MM-dd HH:mm:ss";
+    private static final DateTimeFormatter dateFormatter = DateTimeFormat.forPattern(DATE_PATTERN);
     /**
      * Create a new instance of a StockQuote.
      *
@@ -20,7 +25,7 @@ public class StockQuote extends StockData {
      * @param date   the date of the share price
      * @param symbol the stock symbol.
      */
-    public StockQuote(BigDecimal price, Date date, String symbol) {
+    public StockQuote(BigDecimal price, DateTime date, String symbol) {
         super();
         this.price = price;
         this.date = date;
@@ -37,7 +42,7 @@ public class StockQuote extends StockData {
     /**
      * @return The date of the share price
      */
-    public Date getDate() {
+    public DateTime getDate() {
         return date;
     }
 

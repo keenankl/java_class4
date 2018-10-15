@@ -47,7 +47,7 @@ public class DatabaseStockServiceTest {
 
     @Test
     public void testGetQuote() throws Exception {
-        DatabaseStockService databaseStockService = new DatabaseStockService();
+        //DatabaseStockService databaseStockService = new DatabaseStockService();
         String symbol = "AAPL";
         StockQuote stockQuote = databaseStockService.getQuote(symbol);
         assertNotNull("Verify we can get a stock quote from the db", stockQuote);
@@ -64,15 +64,6 @@ public class DatabaseStockServiceTest {
     public void testGetQuoteNegative() throws StockServiceException {
         assertFalse("Stock symbol matches when it shouldn't",
                 databaseStockService.getQuote(symbol).getSymbol().equals(symbol.toLowerCase()));
-    }
-    @Test(expected = StockServiceException.class)
-    public final void testGetQuoteTripleArgNegative() throws StockServiceException {
-        databaseStockService.getQuote("FAKE", from, until);
-    }
-
-    @Test(expected = StockServiceException.class)
-    public final void testGetQuoteTripleArgTimeNegative() throws StockServiceException {
-        databaseStockService.getQuote(symbol, from, until);
     }
 
 }

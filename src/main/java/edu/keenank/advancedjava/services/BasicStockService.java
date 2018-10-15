@@ -3,11 +3,11 @@ package edu.keenank.advancedjava.services;
 import edu.keenank.advancedjava.IntervalEnum;
 import edu.keenank.advancedjava.model.StockQuote;
 import jdk.nashorn.internal.ir.annotations.Immutable;
+import org.joda.time.DateTime;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -37,8 +37,7 @@ public class BasicStockService implements StockService {
      */
     @Override
     public StockQuote getQuote(String symbol) throws StockServiceException {
-        // a dead simple implementation.
-        return new StockQuote(new BigDecimal(100), Calendar.getInstance().getTime(), symbol);
+        return new StockQuote(new BigDecimal(100), DateTime.now(), symbol);
     }
 
     /**
@@ -54,13 +53,12 @@ public class BasicStockService implements StockService {
      */
     @Override
     public List<StockQuote> getQuote(String symbol, Calendar from, Calendar until) throws StockServiceException {
-        // a dead simple implementation.
         List<StockQuote> stockQuotes = new ArrayList<>();
-        Date aDay = from.getTime();
+        DateTime aDay = new DateTime (from.getInstance());
         while (until.after(aDay)) {
             stockQuotes.add(new StockQuote(new BigDecimal(100), aDay, symbol));
             from.add(Calendar.DAY_OF_YEAR, 1);
-            aDay = from.getTime();
+            aDay = new DateTime (from.getInstance());
         }
         return stockQuotes;
     }

@@ -4,6 +4,7 @@ import edu.keenank.advancedjava.IntervalEnum;
 import edu.keenank.advancedjava.ServiceType;
 import edu.keenank.advancedjava.model.StockQuote;
 import jdk.nashorn.internal.ir.annotations.Immutable;
+import org.joda.time.DateTime;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -23,7 +24,7 @@ import static org.junit.Assert.assertTrue;
 public class BasicStockServiceTest {
     private BasicStockService basicStockService;
     private String symbol;
-    private Date date;
+    private DateTime date;
     private Calendar from;
     private Calendar until;
     private IntervalEnum interval;
@@ -37,7 +38,7 @@ public class BasicStockServiceTest {
         from.set(2018, 01, 01);
         until = Calendar.getInstance();
         until.set(2018, 1, 8);
-        date = new Date();
+        date = DateTime.now();
         interval = IntervalEnum.DAILY;
     }
 
@@ -73,10 +74,10 @@ public class BasicStockServiceTest {
     @Test
     public void getListQuotePositive() throws StockServiceException {
         Calendar from = Calendar.getInstance();
-        from.setTime(date);
+        from.setTimeInMillis(date.getMillis());
 
         Calendar until = Calendar.getInstance();
-        until.setTime(date);
+        until.setTimeInMillis(date.getMillis());
         until.add(Calendar.DAY_OF_YEAR, 1);
 
         List<StockQuote> stockQuote = basicStockService.getQuote(symbol, from, until);

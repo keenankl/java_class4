@@ -4,6 +4,7 @@ import edu.keenank.advancedjava.IntervalEnum;
 import edu.keenank.advancedjava.model.StockQuote;
 import edu.keenank.advancedjava.utl.DatabaseConnectionException;
 import edu.keenank.advancedjava.utl.DatabaseUtils;
+import org.joda.time.DateTime;
 
 import java.math.BigDecimal;
 import java.sql.*;
@@ -17,6 +18,7 @@ import java.util.List;
  */
 public class DatabaseStockService implements StockService {
 
+
     /**
      * Return the current price for a share of stock  for the given symbol
      *
@@ -27,31 +29,30 @@ public class DatabaseStockService implements StockService {
      *                               If this happens, trying the service may work, depending on the actual cause of the
      *                               error.
      */
-    @Override
-    public StockQuote getQuote(String symbol) throws StockServiceException {
-        // todo - this is a pretty lame implementation why?
-        List<StockQuote> stockQuotes = null;
+    public final StockQuote getQuote(String symbol) throws StockServiceException {
+        List<StockQuote> stockQuotes;
         try {
             Connection connection = DatabaseUtils.getConnection();
             Statement statement = connection.createStatement();
-            String queryString = "select * from quotes where symbol = '" + symbol + "'";
-
+            String queryString = "select id from stock_symbols where symbol = '" + symbol + "'";
             ResultSet resultSet = statement.executeQuery(queryString);
-            stockQuotes = new ArrayList<>(resultSet.getFetchSize());
+            resultSet.next();
+            queryString = "select * from quotes where symbol_id = '" + resultSet.getInt("id") + "'";
+            resultSet = statement.executeQuery(queryString);
+            stockQuotes = new ArrayList<StockQuote>(resultSet.getFetchSize());
             while(resultSet.next()) {
-                String symbolValue = resultSet.getString("symbol");
-                Date time = resultSet.getDate("time");
                 BigDecimal price = resultSet.getBigDecimal("price");
-                stockQuotes.add(new StockQuote(price, time, symbolValue));
+                Timestamp timestamp = resultSet.getTimestamp("time");
+                DateTime time = new DateTime(timestamp);
+                stockQuotes.add(new StockQuote(price, time, symbol));
             }
-
-        } catch (DatabaseConnectionException | SQLException exception) {
-            throw new StockServiceException(exception.getMessage(), exception);
+        } catch (DatabaseConnectionException | SQLException e) {
+            throw new StockServiceException(e.getMessage(), e);
         }
         if (stockQuotes.isEmpty()) {
-            throw new StockServiceException("There is no stock data for:" + symbol);
+            throw new StockServiceException("No instances of " + symbol + " found in the selected range");
         }
-        return stockQuotes.get(0);
+        return stockQuotes.get(stockQuotes.size() - 1);
     }
 
     /**
@@ -82,7 +83,7 @@ public class DatabaseStockService implements StockService {
             stockQuotes = new ArrayList<>(resultSet.getFetchSize());
             while(resultSet.next()) {
                 Timestamp timeStamp = resultSet.getTimestamp("time");
-                Date time = new Date(timeStamp.getTime());
+                DateTime time = new DateTime(timeStamp.getTime());
                 BigDecimal price = resultSet.getBigDecimal("price");
                 stockQuotes.add(new StockQuote(price, time, symbol));
             }
