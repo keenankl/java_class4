@@ -6,6 +6,7 @@ import jdk.nashorn.internal.ir.annotations.Immutable;
 import org.junit.Before;
 import org.junit.Test;
 
+import javax.xml.bind.JAXBException;
 import java.text.ParseException;
 
 import static org.junit.Assert.assertNotNull;
@@ -32,7 +33,7 @@ public class StockQuoteApplicationTest {
     }
 
     @Test(expected = NullPointerException.class)
-    public void testMainNegative() throws ParseException, StockServiceException {
+    public void testMainNegative() throws ParseException, StockServiceException, JAXBException {
         StockQuoteApplication.main(null);
     }
 
