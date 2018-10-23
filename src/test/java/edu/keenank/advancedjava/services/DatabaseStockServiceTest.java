@@ -47,7 +47,7 @@ public class DatabaseStockServiceTest {
 
     @Test
     public void testGetQuote() throws Exception {
-        //DatabaseStockService databaseStockService = new DatabaseStockService();
+        DatabaseStockService databaseStockService = new DatabaseStockService();
         String symbol = "AAPL";
         StockQuote stockQuote = databaseStockService.getQuote(symbol);
         assertNotNull("Verify we can get a stock quote from the db", stockQuote);
