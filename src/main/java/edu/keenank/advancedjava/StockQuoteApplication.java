@@ -1,9 +1,9 @@
 package edu.keenank.advancedjava;
 
 import edu.keenank.advancedjava.model.XMLStockQuoteList;
+import edu.keenank.advancedjava.services.ServiceFactory;
 import edu.keenank.advancedjava.services.StockService;
 import edu.keenank.advancedjava.services.StockServiceException;
-import edu.keenank.advancedjava.services.StockServiceFactory;
 import jdk.nashorn.internal.ir.annotations.Immutable;
 
 import javax.xml.bind.JAXBContext;
@@ -23,8 +23,8 @@ public class StockQuoteApplication {
     private StockService basicStockService;
 
     private static String xmlInstance ="<stocks>\n" +
-            "    <stock symbol=\"VNET\" price=\"110.10\" time=\"2015-02-10 00:00:01\"/>\n" +
-            "    <stock symbol=\"AGTK\" price=\"120.10\" time=\"2015-02-10 00:00:01\"/>\n" +
+            "    <stock symbol=\"AAPL\" price=\"110.10\" time=\"2015-02-10 00:00:01\"/>\n" +
+            "    <stock symbol=\"GOOG\" price=\"120.10\" time=\"2015-02-10 00:00:01\"/>\n" +
             "</stocks>";
 
     /**
@@ -41,12 +41,14 @@ public class StockQuoteApplication {
      * Prints out the results
      */
     public static void main(String[] args) throws ParseException, StockServiceException, JAXBException {
-        StockService basicStockService = StockServiceFactory.getStockServiceInstance(ServiceType.BASIC);
-        StockService databaseStockService = StockServiceFactory.getStockServiceInstance(ServiceType.DATABASE);
+        StockService basicStockService = ServiceFactory.getStockServiceInstance(ServiceType.BASIC);
+        StockService databaseStockService = ServiceFactory.getStockServiceInstance(ServiceType.DATABASE);
+        StockService webStockService = ServiceFactory.getStockServiceInstance(ServiceType.WEB);
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
 
         System.out.println(basicStockService.getQuote(args[0]));
         System.out.println(databaseStockService.getQuote(args[0]));
+        System.out.println(webStockService.getQuote(args[0]));
 
         Calendar from = Calendar.getInstance();
         from.setTime(sdf.parse(args[1]));
@@ -60,6 +62,7 @@ public class StockQuoteApplication {
         IntervalEnum interval = IntervalEnum.valueOf(args[3]);
         System.out.println(basicStockService.getQuote(args[0], from, until, interval));
         System.out.println(databaseStockService.getQuote(args[0], from, until, interval));
+        System.out.println(webStockService.getQuote(args[0], from, until, interval));
 
         JAXBContext jaxbContext = JAXBContext.newInstance(XMLStockQuoteList.class);
         Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();

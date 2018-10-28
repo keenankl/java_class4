@@ -7,12 +7,12 @@ import jdk.nashorn.internal.ir.annotations.Immutable;
  * Factory class for stock service
  */
 @Immutable
-public class StockServiceFactory {
+public class ServiceFactory {
 
     /**
      * Private constructor
      */
-    private StockServiceFactory() {
+    private ServiceFactory() {
     }
 
     /**
@@ -24,9 +24,18 @@ public class StockServiceFactory {
                 return new BasicStockService();
             } else if (type.equals(ServiceType.DATABASE)) {
                 return new DatabaseStockService();
+            } else if (type.equals(ServiceType.WEB)) {
+                return new WebStockService();
             } else {
                 throw new StockServiceException("Error: Invalid ServiceType");
             }
+    }
+
+    /**
+     * @return a {@code DatabasePersonService} instance as a reference to a {@code PersonService} interface
+     */
+    public static final PersonService getPersonServiceInstance() {
+        return new DatabasePersonService();
     }
 }
 

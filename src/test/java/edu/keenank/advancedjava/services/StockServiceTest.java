@@ -24,7 +24,7 @@ public class StockServiceTest {
     @Before
     public void setup() throws StockServiceException {
         symbol = "AAPL";
-        stockService =  StockServiceFactory.getStockServiceInstance(ServiceType.BASIC);
+        stockService =  ServiceFactory.getStockServiceInstance(ServiceType.BASIC);
     }
 
     @Test

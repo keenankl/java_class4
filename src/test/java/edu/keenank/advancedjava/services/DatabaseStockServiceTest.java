@@ -34,7 +34,7 @@ public class DatabaseStockServiceTest {
     @Before
     public void setup() throws DatabaseConnectionException, StockServiceException, DatabaseInitializationException {
         DatabaseUtils.initializeDatabase(DatabaseUtils.initializationFile);
-        databaseStockService = (DatabaseStockService) StockServiceFactory.getStockServiceInstance(ServiceType.DATABASE);
+        databaseStockService = (DatabaseStockService) ServiceFactory.getStockServiceInstance(ServiceType.DATABASE);
         symbol = "AAPL";
         BigDecimal price = BigDecimal.valueOf(100.0);
         from = Calendar.getInstance();
@@ -47,7 +47,7 @@ public class DatabaseStockServiceTest {
 
     @Test
     public void testGetQuote() throws Exception {
-        //DatabaseStockService databaseStockService = new DatabaseStockService();
+        DatabaseStockService databaseStockService = new DatabaseStockService();
         String symbol = "AAPL";
         StockQuote stockQuote = databaseStockService.getQuote(symbol);
         assertNotNull("Verify we can get a stock quote from the db", stockQuote);

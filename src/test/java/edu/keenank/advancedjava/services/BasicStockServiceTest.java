@@ -31,7 +31,7 @@ public class BasicStockServiceTest {
 
     @Before
     public void setup() throws StockServiceException {
-        basicStockService = (BasicStockService) StockServiceFactory.getStockServiceInstance(ServiceType.BASIC);
+        basicStockService = (BasicStockService) ServiceFactory.getStockServiceInstance(ServiceType.BASIC);
         symbol = "AAPL";
         BigDecimal price = BigDecimal.valueOf(100.0);
         from = Calendar.getInstance();
