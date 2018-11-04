@@ -54,6 +54,11 @@ public class StockQuote extends StockData {
     }
 
     /**
+     * @return the date in the specified pattern
+     */
+    public static final DateTimeFormatter getDateFormatter() { return dateFormatter; }
+
+    /**
      * Returns the information as a string
      */
     @Override
