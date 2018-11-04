@@ -2,9 +2,12 @@ C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedja
 C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedjava\services\BasicStockServiceTest.java
 C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedjava\services\DatabaseStockServiceTest.java
 C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedjava\util\DatabaseUtilsTest.java
+C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedjava\util\XMLUtilsTest.java
 C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedjava\model\DatabasePersonStockTest.java
-C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedjava\StockQuoteApplicationTest.java
 C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedjava\model\DatabaseStockQuoteTest.java
-C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedjava\services\StockServiceTest.java
 C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedjava\model\DatabasePersonTest.java
-C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedjava\services\StockServiceFactoryTest.java
+C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedjava\services\ServiceFactoryTest.java
+C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedjava\servlet\StockSearchServletTest.java
+C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedjava\StockQuoteApplicationTest.java
+C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedjava\services\StockServiceTest.java
+C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedjava\services\WebStockServiceTest.java

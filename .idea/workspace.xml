@@ -3,22 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="bc5d502d-7b2d-4318-af90-dfaffac71de9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/StockQuote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/StockQuote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/BasicStockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/BasicStockService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/DatabaseStockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/DatabaseStockService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/stocks_db_initialization.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/stocks_db_initialization.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/model/StockQuoteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/model/StockQuoteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/BasicStockServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/BasicStockServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/DatabaseStockServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/DatabaseStockServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_class.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/ServiceType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/ServiceType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/StockQuoteApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/StockQuoteApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/model/StockQuote.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/model/StockQuote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/services/BasicStockService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/services/BasicStockService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/services/DatabaseStockService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/services/DatabaseStockService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/utl/DatabaseUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/utl/DatabaseUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sql/stocks_db_initialization.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sql/stocks_db_initialization.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/keenank/advancedjava/services/StockServiceFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.IntervalEnumTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.StockQuoteApplicationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.StockQuoteApplicationTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.model.DatabasePersonStockTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.model.DatabasePersonStockTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.model.DatabasePersonTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.model.DatabasePersonTest.xml" afterDir="false" />
@@ -26,22 +21,21 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.model.StockQuoteTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.model.StockQuoteTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.services.BasicStockServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.services.BasicStockServiceTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.services.DatabaseStockServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.services.DatabaseStockServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.services.StockServiceFactoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.services.StockServiceFactoryTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.services.StockServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.services.StockServiceTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.util.DatabaseUtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.keenank.advancedjava.util.DatabaseUtilsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.IntervalEnumTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.StockQuoteApplicationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.StockQuoteApplicationTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.model.DatabasePersonStockTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.model.DatabasePersonStockTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.model.DatabasePersonTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.model.DatabasePersonTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.model.DatabaseStockQuoteTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.model.DatabaseStockQuoteTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.model.StockQuoteTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.model.StockQuoteTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.services.BasicStockServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.services.BasicStockServiceTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.services.DatabaseStockServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.services.DatabaseStockServiceTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.services.StockServiceFactoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.services.StockServiceFactoryTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.services.StockServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.services.StockServiceTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.util.DatabaseUtilsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.keenank.advancedjava.util.DatabaseUtilsTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/keenank/advancedjava/model/StockQuoteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/keenank/advancedjava/model/StockQuoteTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/keenank/advancedjava/StockQuoteApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/keenank/advancedjava/StockQuoteApplicationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/edu/keenank/advancedjava/services/BasicStockServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/keenank/advancedjava/services/BasicStockServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/edu/keenank/advancedjava/services/DatabaseStockServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/keenank/advancedjava/services/DatabaseStockServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/keenank/advancedjava/services/StockServiceFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/keenank/advancedjava/services/StockServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/keenank/advancedjava/services/StockServiceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,52 +52,70 @@
     <session id="788096741">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="3" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="7" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="4" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="StockSearchServlet" value="2" />
+          <entry key="class" value="2" />
           <entry key="gitingore" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="112" />
+          <entry key="java" value="177" />
+          <entry key="jsp" value="7" />
           <entry key="sql" value="3" />
-          <entry key="xml" value="6" />
+          <entry key="stockquote" value="1" />
+          <entry key="stockquoteResults" value="1" />
+          <entry key="xml" value="14" />
+          <entry key="xsd" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="4" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="112" />
+          <entry key="JAVA" value="177" />
+          <entry key="JSP" value="9" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="3" />
-          <entry key="XML" value="6" />
+          <entry key="XML" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="1016" />
+          <entry key="java" value="2575" />
+          <entry key="jsp" value="77" />
           <entry key="sql" value="55" />
+          <entry key="stockquoteResults" value="1" />
           <entry key="txt" value="27" />
-          <entry key="xml" value="19" />
+          <entry key="xml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1016" />
+          <entry key="JAVA" value="2575" />
+          <entry key="JSP" value="78" />
           <entry key="PLAIN_TEXT" value="34" />
           <entry key="SQL" value="55" />
-          <entry key="XML" value="19" />
+          <entry key="XML" value="35" />
         </counts>
       </usages-collector>
     </session>
@@ -111,19 +123,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sql/stocks_db_initialization.sql">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/webapp/stockquote.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="43" column="97" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="97" />
+            <state relative-caret-position="527">
+              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/webapp/stockquoteResults.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="62" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/DatabaseStockServiceTest.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="1167">
+              <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/StockSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="151" column="21" lean-forward="true" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1866#1867#0" expanded="true" />
+                <element signature="e#1904#1905#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/servlet/StockSearchServletTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="108" column="35" lean-forward="true" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,44 +178,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/StockService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+            <state relative-caret-position="255">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/StockQuoteApplication.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/DatabaseStockService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/WebStockService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-629">
-              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="-425">
+              <caret line="66" column="52" lean-forward="true" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/model/StockQuoteTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/servlet/StockSearchServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="56" column="39" lean-forward="true" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/BasicStockServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1163">
-              <caret line="36" selection-start-line="36" selection-end-line="37" selection-end-column="31" />
+            <state relative-caret-position="133">
+              <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,28 +215,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/StockQuote.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-415">
-              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/BasicStockService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/DatabaseStockSymbol.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1274">
-              <caret line="90" selection-start-line="90" selection-end-line="92" selection-end-column="7" />
+            <state relative-caret-position="1207">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
             </state>
           </provider>
         </entry>
@@ -221,10 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitingore" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/StockServiceFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/DatabaseUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/DatabasePersonStock.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/DatabaseStockQuote.java" />
@@ -235,20 +248,47 @@
         <option value="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/model/DatabasePersonTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/StockServiceFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/StockServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/StockQuoteApplicationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/DatabasePerson.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/DatabasePersonService.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/PersonService.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/PersonServiceException.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sql/stocks_db_initialization.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/StockQuoteApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/StockService.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/BasicStockService.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/model/StockQuoteTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/StockQuote.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/BasicStockServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/DatabaseStockService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/XMLDomainObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/XMLStockQuote.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/XMLStockQuoteList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/StockQuoteApplicationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/XMLException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/XMLUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/util/XMLUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/XMLObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/ServiceType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/ServiceFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/PersonServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/DatabaseServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/DatabaseStockServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/StockQuoteApplication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/WebStockServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/WebStockService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/stockquoteResults" />
+        <option value="$PROJECT_DIR$/src/main/webapp/stockquote.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/stockquoteResults.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/StockQuote.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/servlet/StockSearchServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/servlet/StockSearchServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/webapp/stockquote.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/webapp/stockquoteResults.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/servlet/StockSearchServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/StockSearch.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/servlet/StockSearchServletTest.java" />
       </list>
     </option>
   </component>
@@ -265,9 +305,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-58" />
-    <option name="y" value="45" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="120" />
+    <option name="y" value="40" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -338,22 +378,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="advancedjava" type="462c0819:PsiDirectoryNode" />
-              <item name="utl" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_class4" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_class4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="advancedjava" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_class4" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_class4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="advancedjava" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_class4" type="b2602c69:ProjectViewProjectNode" />
@@ -383,25 +427,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="advancedjava" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_class4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_class4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advancedjava" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_class4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_class4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advancedjava" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_class4" type="b2602c69:ProjectViewProjectNode" />
@@ -420,8 +446,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539644112297" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541351675466" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -432,7 +458,17 @@
       <recent name="edu.keenank.advancedjava.services" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kevin\Documents\GitHub\java_class4\src\main\servlet" />
+      <recent name="C:\Users\kevin\Documents\GitHub\java_class4\src\test\java\edu\keenank\advancedjava" />
+      <recent name="C:\Users\kevin\Documents\GitHub\java_class4\src\main\webapp" />
+      <recent name="C:\Users\kevin\Documents\GitHub\java_class4\src\main\resources\xml" />
       <recent name="C:\Users\kevin\Documents\GitHub\java_class4\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.keenank.advancedjava.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kevin\Documents\GitHub\java_class4\src\main\java\edu\keenank\advancedjava" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -468,7 +504,27 @@
       <workItem from="1539539384563" duration="7625000" />
       <workItem from="1539603842693" duration="766000" />
       <workItem from="1539639247295" duration="309000" />
-      <workItem from="1539639577672" duration="4523000" />
+      <workItem from="1539639577672" duration="5519000" />
+      <workItem from="1539813605270" duration="4066000" />
+      <workItem from="1539898674492" duration="3049000" />
+      <workItem from="1540043159904" duration="1591000" />
+      <workItem from="1540137260046" duration="1622000" />
+      <workItem from="1540150826303" duration="4000" />
+      <workItem from="1540150900791" duration="83000" />
+      <workItem from="1540151007973" duration="2979000" />
+      <workItem from="1540249650743" duration="39000" />
+      <workItem from="1540249779500" duration="5659000" />
+      <workItem from="1540512755040" duration="1214000" />
+      <workItem from="1540751452372" duration="628000" />
+      <workItem from="1540752161562" duration="174000" />
+      <workItem from="1540752362271" duration="2505000" />
+      <workItem from="1541108415635" duration="615000" />
+      <workItem from="1541122379292" duration="2312000" />
+      <workItem from="1541205806533" duration="1938000" />
+      <workItem from="1541207793597" duration="3931000" />
+      <workItem from="1541339502509" duration="1420000" />
+      <workItem from="1541340975649" duration="3669000" />
+      <workItem from="1541373591434" duration="1343000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit assignment 6">
       <created>1539548964116</created>
@@ -481,13 +537,47 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24667000" />
+    <option name="totallyTimeSpent" value="64504000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-46" y="36" width="1400" height="776" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2925373" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29731545" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Persistence" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33333334" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.2851064" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29127517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -503,10 +593,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3281493" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.36595744" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32970452" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.5092199" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -518,7 +608,7 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -531,79 +621,226 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit assignment 6" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/main.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitingore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/StockServiceException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/stocks_db_initialization.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="731">
+          <caret line="43" column="97" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xml/stock_info.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xml/stock_info.xsd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/util/DatabaseUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/model/DatabasePersonStockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/DatabaseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="25" column="76" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/model/DatabasePersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/model/StockQuoteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/DatabaseStockQuote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/DatabasePerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="74" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/XMLUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/XMLException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/util/XMLUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/XMLStockQuote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/XMLDomainObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/XMLStockQuoteList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/model/DatabaseStockQuoteTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/StockServiceFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/XMLObjectFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        <state relative-caret-position="17">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/StockServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/DatabaseStockService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="-646">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/util/DatabaseUtilsTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/yahoofinance-api/YahooFinanceAPI/3.13.0/YahooFinanceAPI-3.13.0.jar!/yahoofinance/histquotes/HistoricalQuote.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        <state relative-caret-position="205">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/StockQuoteApplicationTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/yahoofinance-api/YahooFinanceAPI/3.13.0/YahooFinanceAPI-3.13.0.jar!/yahoofinance/histquotes/Interval.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        <state relative-caret-position="221">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/ServiceType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/DatabaseServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/StockQuoteApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/PersonServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/WebStockServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/DatabasePersonStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/DatabaseStockSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="90" selection-start-line="90" selection-end-line="92" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/BasicStockServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/DatabaseStockServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/ServiceFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/StockQuoteApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/servlet/StockSearchServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/servlet/StockSearchServlet" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/IntervalEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -611,83 +848,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/ProgramConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/StockQuote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/ServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/DatabaseInitializationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/DatabaseConnectionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/StockData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/DatabasePerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1105">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/DatabasePersonStock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1914">
-          <caret line="122" selection-start-line="122" selection-end-line="124" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/DatabaseStockQuote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="122" selection-start-line="122" selection-end-line="124" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/DatabasePersonService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/StockService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/WebStockService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="66" column="52" lean-forward="true" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/BasicStockService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/servlet/StockSearchServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/PersonService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/webapp/stockquote.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="527">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/StockServiceFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/webapp/stockquoteResults.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="17">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/utl/DatabaseUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/StockSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="215">
+          <caret line="151" column="21" lean-forward="true" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1866#1867#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/servlet/StockSearchServletTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="108" column="35" lean-forward="true" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -696,98 +945,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/PersonServiceException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/StockServiceException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/DatabaseStockSymbol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1274">
-          <caret line="90" selection-start-line="90" selection-end-line="92" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/StockQuoteApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/StockService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/stocks_db_initialization.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="43" column="97" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/model/StockQuoteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="56" column="39" lean-forward="true" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/BasicStockService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/services/DatabaseStockService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-629">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/keenank/advancedjava/model/StockQuote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-415">
-          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/BasicStockServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1163">
-          <caret line="36" selection-start-line="36" selection-end-line="37" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/keenank/advancedjava/services/DatabaseStockServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1167">
+          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
         </state>
       </provider>
     </entry>
