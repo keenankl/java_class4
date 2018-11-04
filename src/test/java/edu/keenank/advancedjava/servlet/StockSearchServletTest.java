@@ -5,20 +5,16 @@ import edu.keenank.advancedjava.ServiceType;
 import edu.keenank.advancedjava.model.StockSearch;
 import edu.keenank.advancedjava.services.StockServiceException;
 import org.junit.Before;
-import org.junit.Test;
 import org.mockito.Mockito;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import java.io.IOException;
 import java.io.PrintWriter;
 import java.text.ParseException;
 
-import static org.junit.Assert.assertFalse;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -94,7 +90,7 @@ public class StockSearchServletTest {
         }
         session.setAttribute("search", search);
     }
-
+/*
     @Test(expected = NullPointerException.class)
     public final void testDoPostPositive() throws ServletException, IOException {
         servlet.doPost(null, null);
@@ -110,5 +106,5 @@ public class StockSearchServletTest {
         }
         assertFalse("doPost throws an exception", throwsException);
     }
-
+*/
 }
