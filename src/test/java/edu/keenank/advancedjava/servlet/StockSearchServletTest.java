@@ -4,8 +4,13 @@ package edu.keenank.advancedjava.servlet;
 import edu.keenank.advancedjava.ServiceType;
 import edu.keenank.advancedjava.model.StockSearch;
 import edu.keenank.advancedjava.services.StockServiceException;
+import org.junit.Assert;
 import org.junit.Before;
 import org.mockito.Mockito;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
@@ -14,6 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.PrintWriter;
 import java.text.ParseException;
+import java.util.concurrent.TimeUnit;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -33,6 +39,14 @@ public class StockSearchServletTest {
     private static final String INTERVAL_PARAMETER_KEY = "interval";
     private static final String SERVICETYPE_PARAMETER_KEY = "serviceType";
 
+    private static WebDriver driver;
+    WebElement element;
+
+    public static void openBrowser() throws Exception {
+        System.setProperty("webdriver.gecko.driver", "C:\\\\Users\\nwarr\\Downloads\\geckodriver-v0.21.0-win64\\geckodriver.exe");
+        driver = new FirefoxDriver();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    }
     @Before
     public final void setUp() throws ParseException {
         request = mock(HttpServletRequest.class);
@@ -90,21 +104,21 @@ public class StockSearchServletTest {
         }
         session.setAttribute("search", search);
     }
-/*
-    @Test(expected = NullPointerException.class)
-    public final void testDoPostPositive() throws ServletException, IOException {
-        servlet.doPost(null, null);
+
+    public final void testWebServicePositive() {
+        driver.get("http://localhost:8080/StockSearchWebApp/index.jsp");
+        driver.findElement(By.xpath("//a[@href='stockquote.jsp']")).click();
+        driver.findElement(By.name("symbol")).sendKeys("AAPL");
+        driver.findElement(By.name("from")).sendKeys("2018-011-01 00:00:00");
+        driver.findElement(By.name("until")).sendKeys("2016-11-05 00:00:00");
+        driver.findElement(By.xpath("//input[@value='WEB']")).click();
+        driver.findElement(By.xpath("//input[@value='OK']")).click();
+        element = driver.findElement(By.xpath("//*[text()='Stock Quote Search Result']"));
+        Assert.assertNotNull(element);
     }
 
-    @Test
-    public final void testDoPostNegative() throws ServletException, IOException {
-        boolean throwsException = false;
-        try {
-            servlet.doPost(request, response);
-        } catch (Exception e) {
-            throwsException = true;
-        }
-        assertFalse("doPost throws an exception", throwsException);
+    public static void closeBrowser(){
+        driver.quit();
     }
-*/
+
 }

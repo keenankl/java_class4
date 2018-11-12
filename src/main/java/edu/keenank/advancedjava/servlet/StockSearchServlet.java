@@ -26,6 +26,8 @@ public class StockSearchServlet extends HttpServlet {
     private static final String INTERVAL_PARAMETER_KEY = "interval";
     private static final String SERVICETYPE_PARAMETER_KEY = "serviceType";
 
+
+
     /**
      * Requests access to form and generates a response
      *
